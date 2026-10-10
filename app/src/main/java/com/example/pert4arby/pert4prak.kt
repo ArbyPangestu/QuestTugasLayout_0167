@@ -66,3 +66,19 @@ fun TugasLayoutApp() {
         )
     }
 }
+
+@Composable
+fun ProfileCard(
+    nameRes: Int,
+    phoneRes: Int?,
+    locRes: Int,
+    bgColorRes: Int
+) {
+    Card(
+        shape = RoundedCornerShape(12.dp),
+        colors = CardDefaults.cardColors(containerColor = colorResource(id = bgColorRes)),
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(vertical = 8.dp)
+            .height(90.dp)
+    ) {
