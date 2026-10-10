@@ -25,3 +25,5 @@ fun TugasLayoutApp() {
             fontWeight = FontWeight.Medium,
             color = colorResource(id = R.color.text_black)
         )
+
+        Spacer(modifier = Modifier.height(24.dp))
