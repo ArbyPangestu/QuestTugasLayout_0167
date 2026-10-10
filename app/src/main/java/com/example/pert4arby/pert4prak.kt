@@ -89,4 +89,23 @@ fun ProfileCard(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
-    }
+        }
+
+        Image(
+            painter = painterResource(id = R.drawable.logo_umy),
+            contentDescription = null,
+            modifier = Modifier.size(60.dp)
+        )
+
+        // Text Tengah (Nama, No HP, Lokasi)
+        Column(
+            modifier = Modifier.weight(1f),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Text(
+                text = stringResource(id = nameRes),
+                color = colorResource(id = R.color.text_white),
+                fontWeight = FontWeight.Bold,
+                fontSize = 18.sp
+            )
+        }
