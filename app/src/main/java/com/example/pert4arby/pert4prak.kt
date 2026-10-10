@@ -108,4 +108,17 @@ fun ProfileCard(
                 fontWeight = FontWeight.Bold,
                 fontSize = 18.sp
             )
+            if (phoneRes != null) {
+                Text(
+                    text = stringResource(id = phoneRes),
+                    color = colorResource(id = R.color.text_cyan),
+                    fontSize = 12.sp
+                )
+            }
+            Text(
+                text = stringResource(id = locRes),
+                color = colorResource(id = R.color.text_yellow),
+                fontSize = 12.sp
+            )
         }
+        
