@@ -27,3 +27,10 @@ fun TugasLayoutApp() {
         )
 
         Spacer(modifier = Modifier.height(24.dp))
+
+        ProfileCard(
+            nameRes = R.string.name_1,
+            phoneRes = null,
+            locRes = R.string.loc_1,
+            bgColorRes = R.color.card_grey
+        )
