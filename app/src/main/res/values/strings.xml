@@ -8,4 +8,8 @@
 
     <string name="name_1">Arby Pangestu</string>
     <string name="loc_1">Turi, Sleman</string>
+
+    <string name="name_2">Gibran Fathoni</string>
+    <string name="phone_2">085436874190</string>
+    <string name="loc_2">Kasihan, Bantul</string>
 </resources>
