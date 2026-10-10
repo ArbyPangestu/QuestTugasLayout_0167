@@ -57,3 +57,12 @@ fun TugasLayoutApp() {
         )
 
         Spacer(modifier = Modifier.weight(1f))
+
+        Text(
+            text = stringResource(id = R.string.copyright),
+            fontSize = 12.sp,
+            color = colorResource(id = R.color.text_black),
+            modifier = Modifier.padding(bottom = 16.dp)
+        )
+    }
+}
