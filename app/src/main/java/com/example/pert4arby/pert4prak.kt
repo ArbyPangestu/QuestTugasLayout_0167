@@ -82,3 +82,11 @@ fun ProfileCard(
             .padding(vertical = 8.dp)
             .height(90.dp)
     ) {
+        Row(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 16.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+    }
