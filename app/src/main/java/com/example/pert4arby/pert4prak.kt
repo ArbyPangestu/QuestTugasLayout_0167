@@ -48,3 +48,12 @@ fun TugasLayoutApp() {
             locRes = R.string.loc_3,
             bgColorRes = R.color.card_blue
         )
+
+        ProfileCard(
+            nameRes = R.string.name_4,
+            phoneRes = R.string.phone_4,
+            locRes = R.string.loc_4,
+            bgColorRes = R.color.card_green
+        )
+
+        Spacer(modifier = Modifier.weight(1f))
