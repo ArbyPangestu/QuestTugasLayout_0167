@@ -18,3 +18,10 @@ fun TugasLayoutApp() {
             fontWeight = FontWeight.Bold,
             color = colorResource(id = R.color.text_black)
         )
+
+        Text(
+            text = stringResource(id = R.string.subtitle_umy),
+            fontSize = 14.sp,
+            fontWeight = FontWeight.Medium,
+            color = colorResource(id = R.color.text_black)
+        )
