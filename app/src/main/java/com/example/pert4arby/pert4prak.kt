@@ -11,3 +11,10 @@ fun TugasLayoutApp() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Spacer(modifier = Modifier.height(32.dp))
+
+        Text(
+            text = stringResource(id = R.string.title_ti),
+            fontSize = 24.sp,
+            fontWeight = FontWeight.Bold,
+            color = colorResource(id = R.color.text_black)
+        )
